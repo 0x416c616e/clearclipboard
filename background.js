@@ -4,8 +4,19 @@
 
 'use strict';
 
+
 chrome.browserAction.onClicked.addListener(function(tab) {
   chrome.tabs.executeScript({
     code: 'alert("Hello")'
   });
+  clearClipboard();
 });
+
+async function clearClipboard() {
+  try {
+    await navigator.clipboard.writeText('');
+    console.log('Cleared clipboard');
+  } catch (err) {
+    console.error('Failed to copy: ', err);
+  }
+}
