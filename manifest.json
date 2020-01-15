@@ -10,13 +10,6 @@
     "48": "icons/border-48.png"
   },
 
-  "content_scripts": [
-    {
-      "matches": ["*://*.mozilla.org/*"],
-      "js": ["clearclipboard.js"]
-    }
-  ],
-
   "applications": {
     "gecko": {
       "id": "alan@saintlouissoftware.com"
