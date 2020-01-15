@@ -8,6 +8,12 @@ I use LastPass, which is a browser-based password manager. Sometimes, it can jus
 
 ## How to install it in Firefox
 
+### Official add-on
+
+Go here: [https://addons.mozilla.org/en-US/firefox/addon/clearclipboard/](https://addons.mozilla.org/en-US/firefox/addon/clearclipboard/)
+
+### Unofficial way
+
 1. Go to about:debugging
 2. Click "This Firefox"
 3. Click "Temporary Extensions"
