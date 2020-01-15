@@ -4,7 +4,7 @@
   "name": "ClearClipboard",
   "version": "1.0",
 
-  "description": "Adds a red border to all webpages matching mozilla.org.",
+  "description": "Clears the clipboard when you click the CC button",
 
   "icons": {
     "48": "icons/border-48.png"
@@ -39,9 +39,6 @@
   "permissions": [
     "clipboardRead",
     "clipboardWrite",
-    "*://developer.mozilla.org/*",
-    "notifications",
-    "storage",
     "activeTab"
   ]
 }
