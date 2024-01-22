@@ -4,7 +4,7 @@ A browser add-on for Firefox and Chrome that clears your clipboard when you clic
 
 ## Why clear the clipboard?
 
-I use LastPass, which is a browser-based password manager. Sometimes, it can just autofill login info. Other times, it doesn't work quite right, so you end up having to just go to the LastPass page and then copy a password. As a result, this means that your clipboard will often have a password copied to it. So I found myself needing to copy something else to the clipboard afterwards, so I won't leak my passwords accidentally. This browser add-on solves that problem.
+Sometimes you copy something to the clipboard temporarily, like an API key or whatever, but you don't want to accidentally paste it again later. This add-on makes it quicker and easier to copy something else to the clipboard.
 
 ## How to install it in Firefox
 
